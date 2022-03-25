@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Localization002</string>
+    <string name="name">मोहम्मद रियाद हुसैन</string>
+    <string name="fadar_name">मो. अब्दुर रहमानी</string>
+    <string name="college">कुरीग्राम पॉलिटेक्निक संस्थान</string>
+    <string name="semister">आठ सेमेस्टर</string>
+    <string name="technology">कंप्यूटर प्रौद्योगिकी</string>
+    <string name="interny">यूरोपीय यह समाधान और संस्थान</string>
+    <string name="phone">01784654332121</string>
+    <string name="riyadh">रियाद हुसैन</string>
+</resources>

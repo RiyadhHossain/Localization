@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Localization002</string>
+    <string name="name">محمد ریاض حسین</string>
+    <string name="fadar_name">محمد عبدالرحمن</string>
+    <string name="college">کوریگرام پولی ٹیکنیک انسٹی ٹیوٹ</string>
+    <string name="semister">آٹھ سمسٹر</string>
+    <string name="technology">کمپیوٹر ٹیکنالوجی</string>
+    <string name="interny">یورپی یہ حل اور انسٹی ٹیوٹ</string>
+    <string name="phone">01784654332121</string>
+    <string name="riyadh">ریاض حسین</string>
+</resources>

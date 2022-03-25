@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Localization002</string>
+
+    <string name="name"> Md. Riyadh Hossain </string>
+    <string name="fadar_name"> Md. Abdur Rahmen  </string>
+    <string name="college"> Kurigram polytechnic Institute </string>
+    <string name="semister"> Eight semister </string>
+    <string name="technology"> Computer technology </string>
+    <string name="interny"> Europian it solution and institute </string>
+    <string name="phone"> 01784654332121 </string>
+    <string name="riyadh"> Riyadh Hossain</string>
+
+
+</resources>

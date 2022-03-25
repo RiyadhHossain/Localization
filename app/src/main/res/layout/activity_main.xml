@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:id="@+id/mainLayoutID"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/edit_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/nameID"
+            android:textStyle="bold"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/name"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fatherNameID"
+            android:textSize="20sp"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nameID"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/fadar_name"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/collegeID"
+            android:textSize="20sp"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fatherNameID"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/college"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/semesterID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:text="@string/semister"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/collegeID" />
+
+        <TextView
+            android:id="@+id/technologyID"
+            android:textSize="20sp"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/semesterID"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/technology"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/internyID"
+            android:textSize="20sp"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/technologyID"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/interny"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/phoneID"
+            android:textSize="20sp"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/internyID"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/phone"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/riyadhBtnID"
+           android:background="@drawable/button_deg"
+           android:text="@string/riyadh"
+           android:layout_margin="30dp"
+           android:textAllCaps="false"
+           android:textSize="22sp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

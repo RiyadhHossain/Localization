@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">স্থানীয়করণ002</string>
+    <string name="name">মোঃ রিয়াদ হোসেন</string>
+    <string name="fadar_name">মো. আবদুর রহমান</string>
+    <string name="college">কুড়িগ্রাম পলিটেকনিক ইনস্টিটিউট</string>
+    <string name="semister">আট সেমিস্টার</string>
+    <string name="technology">কম্পিউটার প্রযুক্তি</string>
+    <string name="interny">ইউরোপীয় এটা সমাধান এবং ইনস্টিটিউট</string>
+    <string name="phone">০১৭৮৪৬৫৪৩৩২১২১</string>
+    <string name="riyadh">রিয়াদ হোসেন</string>
+</resources>

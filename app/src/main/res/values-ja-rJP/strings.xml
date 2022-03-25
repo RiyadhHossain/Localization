@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Localization002</string>
+    <string name="name">Md。RiyadhHossain</string>
+    <string name="fadar_name">Md。AbdurRahman</string>
+    <string name="college">クリグラム工科大学</string>
+    <string name="semister">8学期</string>
+    <string name="technology">コンピューターテクノロジー</string>
+    <string name="interny">ヨーロッパのITソリューションと研究所</string>
+    <string name="phone">01784654332121</string>
+    <string name="riyadh">リヤドホセイン</string>
+</resources>
